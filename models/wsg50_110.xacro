@@ -48,14 +48,14 @@
       <limit effort="1000.0" lower="0.0" upper="0.055" velocity="0.5"/>
       <parent link="${prefix}gripper_link"/>
       <child link="${prefix}thumb_link"/>
-      <origin xyz="0 -0.096 0" rpy="3.141 3.141 0"/>
+      <origin xyz="0 -0.096 0" rpy="3.141 0 0"/>
     </joint>
 
     <joint name="${prefix}index_joint" type="prismatic">
       <limit effort="1000.0" lower="0.0" upper="0.055" velocity="0.5"/>
       <parent link="${prefix}gripper_link"/>
       <child link="${prefix}index_link"/>
-      <origin xyz="0 -0.096 0" rpy="3.141 0 0"/>
+      <origin xyz="0 -0.096 0" rpy="3.141 3.141 0"/>
     </joint>
 
   </macro>
