@@ -1,0 +1,3 @@
+<launch>
+  <param name="robot_model" command="$(find xacro)/xacro.py '$(find schunk_wsg50_model)/models/example.xacro'"/>
+</launch>

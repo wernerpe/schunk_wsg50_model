@@ -1,0 +1,14 @@
+<package>
+  <description brief="schunk_wsg50_model">
+
+     schunk_wsg50_model
+
+  </description>
+  <author>Jonathan Bohren</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/schunk_wsg50_model</url>
+
+</package>
+
+
