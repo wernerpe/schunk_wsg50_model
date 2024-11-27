@@ -31,9 +31,9 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.023 0.09515100000000001 0.03"/>
+        <box size="0.023 0.095150742 0.030000001"/>
       </geometry>
-      <origin rpy="0.0 -0.0 0.0" xyz="0.0085 0.0104245 0.0"/>
+      <origin rpy="0.0 -0.0 0.0" xyz="0.0085 0.010424343000000003 -4.999999997368221e-10"/>
     </collision>
   </link>
   <link name="wsg50_index_link">
@@ -46,9 +46,9 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.023 0.09515100000000001 0.03"/>
+        <box size="0.023 0.095150742 0.030000001"/>
       </geometry>
-      <origin rpy="0.0 -0.0 0.0" xyz="0.0085 0.0104245 0.0"/>
+      <origin rpy="0.0 -0.0 0.0" xyz="0.0085 0.010424343000000003 -4.999999997368221e-10"/>
     </collision>
   </link>
   <joint name="wsg50_thumb_joint" type="fixed">
